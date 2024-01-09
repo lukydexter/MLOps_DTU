@@ -1,6 +1,6 @@
 # MLOps_DTU
 
-MLOps course at DTU.
+MLOps course at DTU. 
 
 ## Project structure
 
