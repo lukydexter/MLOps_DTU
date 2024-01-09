@@ -1,6 +1,46 @@
 outs:
-- md5: 39235eb18f055256c5318f8c09fb7717.dir
-  size: 263449740
-  nfiles: 6
-  hash: md5
+- hash: md5
   path: data
+  files:
+  - relpath: .DS_Store
+    md5: b70fb31c368b34ca00164b7269e256f0
+    size: 6148
+    cloud:
+      remote_storage:
+        etag: 08b2c295f092d083031001
+        version_id: '1704797845938482'
+  - relpath: processed/.DS_Store
+    md5: 8183ddf5f873c396d50bbebede19ef09
+    size: 6148
+    cloud:
+      remote_storage:
+        etag: 088192a9f092d083031001
+        version_id: '1704797846259969'
+  - relpath: processed/.gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 08f8f9a5f092d083031001
+        version_id: '1704797846207736'
+  - relpath: processed/normalized_test_set.pt
+    md5: 1bea08eb08a7e73ef4f19064e9f2fd1f
+    size: 31441568
+    cloud:
+      remote_storage:
+        etag: 08befff9f292d083031001
+        version_id: '1704797851779006'
+  - relpath: processed/normalized_train_set.pt
+    md5: 508df3689bbb7884556aaec6b28e1160
+    size: 188401574
+    cloud:
+      remote_storage:
+        etag: 08fbe185f792d083031001
+        version_id: '1704797860360443'
+  - relpath: processed/processed.zip
+    md5: bd7309ec4f3616e103d5e0935b81ea69
+    size: 43594302
+    cloud:
+      remote_storage:
+        etag: 0895c2cbf392d083031001
+        version_id: '1704797853114645'
