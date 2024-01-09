@@ -1,4 +1,5 @@
-'gcr.io/cloud-builders/docker'
-['build', '-f', './dockerfile/trainer.dockerfile', '-t', 'gcr.io/dtumlops1/image-docker', '.', 'no-cache']
-'gcr.io/cloud-builders/docker'
-['push', 'gcr.io/dtumlops1/image-docker']
+steps:
+    - name: 'gcr.io/cloud-builders/docker'
+      args: ['build', '-f', './dockerfile/trainer.dockerfile', '-t', 'gcr.io/dtumlops1/image-docker', '.', 'no-cache']
+    - name: 'gcr.io/cloud-builders/docker'
+      args: ['push', 'gcr.io/dtumlops1/image-docker']
