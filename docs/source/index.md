@@ -1,4 +1,4 @@
 ## Documentation
 
-Documentation for luca_mlops_day2
+Documentation for MLOps_DTU
 

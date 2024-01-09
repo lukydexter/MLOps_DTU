@@ -3,7 +3,7 @@ import torch
 from models.model import MyNeuralNet
 import matplotlib.pyplot as plt
 
-
+import numpy
 from torch import nn, optim
 import torch.nn.functional as F
 
@@ -61,10 +61,10 @@ def train(lr):
     plt.ylabel("Training Loss")
     plt.title("Training Curve")
     plt.savefig("reports/figures/training_curve.png")
-
-
+# lr= 1e-3
+# train(lr)
 cli.add_command(train)
 
 
 if __name__ == "__main__":
-    cli()
+   cli()
