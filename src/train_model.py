@@ -63,6 +63,7 @@ def train(lr):
     plt.savefig("reports/figures/training_curve.png")
 # lr= 1e-3
 # train(lr)
+    
 cli.add_command(train)
 
 
