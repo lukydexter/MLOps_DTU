@@ -13,6 +13,7 @@ COPY data/ data/
 COPY models/ models/
 COPY reports/ reports/
 
+
 WORKDIR /
 RUN pip install . --no-cache-dir 
 
